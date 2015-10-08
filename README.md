@@ -30,11 +30,11 @@ objsplitv requires Python.
 
 $ ./objsplitv.py input.obj
 
-This will generate a split-input.obj file.
+This will generate a input-split.obj file.
 
 ## Bugs
 
-No known bugs.
+* Removes UV coordinates from the model.
 
 ## Thanks
 
