@@ -1,4 +1,9 @@
 #!/usr/bin/python
+#
+# objsplitv.py
+#
+# (c)2015 Game Studio Abraham Stolk Inc.
+# b.stolk@gmail.com
 
 import sys
 
