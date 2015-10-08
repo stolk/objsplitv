@@ -17,6 +17,10 @@ Again, this causes problems when trying to bake to the vertex colours.
 
 An example case of where inappropriately shared vertices are generated, is in the Wavefront OBJ exporter of the excellent [Wings3D](http://www.wings3d.com) modeling tool.
 You can run objsplitv on the output from Wings3D to clean up this issue.
+In the example below, vertex A can be safely shared, due to the identical normal for incident faces.
+But vertex B has three different face normals, and should not be shared for the purpose of baking light.
+
+![Sample](doc/sharing.png "Sample of appropriate (A) and inappropriate (B) sharing of vertex coordinates.")
 
 ##Dependencies
 
